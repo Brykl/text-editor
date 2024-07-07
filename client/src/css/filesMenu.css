@@ -1,0 +1,66 @@
+.files-menu {
+    max-height: 90vh;
+    width: 100%;
+    background-color: rgba(100, 102, 102, 0.603);
+}
+
+.container-cards {
+    margin-top: 10vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 7%;
+    background-color: rgb(247, 247, 247);
+    height: 75vh;
+}
+
+.card-1 {
+    padding-left: 5px;
+    background-color: rgb(189, 230, 198);
+    position: relative;
+}
+
+.delete-icon {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+.delete-icon:hover {
+    color: #3a1f85;
+}
+
+.delete-icon:active {
+    color: #100238;
+}
+
+.top-bar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    max-height: 10vh;
+}
+
+.data-created {
+    color: rgb(63, 62, 62);
+}
+
+.name-site {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.settings-icon {
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.button-create {
+    position: absolute;
+    top: 14vh;
+    right: 20%;
+    margin-bottom: 10px;
+}

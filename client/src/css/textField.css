@@ -1,0 +1,75 @@
+.text-field {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(197, 202, 202);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.textarea {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-align: start;
+    text-justify: start;
+    width: 90%;
+    height: 85%;
+    overflow: auto;
+    resize: none;
+    box-sizing: border-box;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    max-height: 100%;
+}
+
+.textarea:focus {
+
+    outline: none; /* Убираем стандартный outline */
+    border: 1px solid #ccc; /* Оставляем ту же границу */
+    box-shadow: none; /* Убираем тени */
+    color: inherit; /* Сбрасываем цвет текста */
+}
+
+.text-header {
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    width: 50%;
+    height: 5%;
+    resize: none;
+    text-justify: center;
+}
+
+.text-header:focus {
+    outline: none; /* Убираем стандартный outline */
+    border: 1px solid #ccc; /* Оставляем ту же границу */
+    box-shadow: none; /* Убираем тени */
+    color: inherit; /* Сбрасываем цвет текста */
+}
+
+.container-for-text-field {
+    margin-left: 5%;
+    height: 75vh;
+    width: 80vw;
+    margin-top: 20vh;
+    position: relative;
+}
+
+.save-icon {
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
+
+.save-icon:hover {
+    color: #3a1f85;
+}
+
+.save-icon:active {
+    color: #100238;
+}
